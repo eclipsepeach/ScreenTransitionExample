@@ -13,6 +13,7 @@
 		4D66EF7D27D9EEAC00C1C5C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EF7B27D9EEAC00C1C5C8 /* Main.storyboard */; };
 		4D66EF7F27D9EEAC00C1C5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EF7E27D9EEAC00C1C5C8 /* Assets.xcassets */; };
 		4D66EF8227D9EEAC00C1C5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66EF8027D9EEAC00C1C5C8 /* LaunchScreen.storyboard */; };
+		4D66EF8C27DB785F00C1C5C8 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66EF8B27DB785F00C1C5C8 /* SeguePushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4D66EF7E27D9EEAC00C1C5C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D66EF8127D9EEAC00C1C5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D66EF8327D9EEAC00C1C5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D66EF8B27DB785F00C1C5C8 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 				4D66EF7327D9EEAC00C1C5C8 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		4D66EF7327D9EEAC00C1C5C8 /* Products */ = {
 			isa = PBXGroup;
@@ -63,6 +66,7 @@
 				4D66EF7E27D9EEAC00C1C5C8 /* Assets.xcassets */,
 				4D66EF8027D9EEAC00C1C5C8 /* LaunchScreen.storyboard */,
 				4D66EF8327D9EEAC00C1C5C8 /* Info.plist */,
+				4D66EF8B27DB785F00C1C5C8 /* SeguePushViewController.swift */,
 			);
 			path = ScreenTransitionExample;
 			sourceTree = "<group>";
@@ -138,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D66EF8C27DB785F00C1C5C8 /* SeguePushViewController.swift in Sources */,
 				4D66EF7A27D9EEAC00C1C5C8 /* ViewController.swift in Sources */,
 				4D66EF7627D9EEAC00C1C5C8 /* AppDelegate.swift in Sources */,
 				4D66EF7827D9EEAC00C1C5C8 /* SceneDelegate.swift in Sources */,
