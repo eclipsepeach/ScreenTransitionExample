@@ -1,18 +1,18 @@
 //
-//  SeguePushViewController.swift
+//  CodePushViewController.swift
 //  ScreenTransitionExample
 //
-//  Created by Gahyun Song on 2022/03/11.
+//  Created by Gahyun Song on 2022/03/12.
 //
 
 import UIKit
 
-class SeguePushViewController: UIViewController {
+class CodePushViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    @IBAction func tapBackButton(_ sender: UIButton) {
+    @IBAction func tapBackButton(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
 }
